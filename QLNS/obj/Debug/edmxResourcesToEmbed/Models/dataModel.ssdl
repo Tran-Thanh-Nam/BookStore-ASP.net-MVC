@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLNSModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QLNS.dbo.tblCTPhieuNhap' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblCTPhieuNhap">
+    <Key>
+      <PropertyRef Name="ma_pn" />
+    </Key>
+    <Property Name="ma_pn" Type="int" Nullable="false" />
+    <Property Name="ma_sach" Type="int" />
+    <Property Name="so_luong" Type="int" />
+    <Property Name="don_gia" Type="int" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'QLNS.dbo.tblCTPhieuXuat' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tblCTPhieuXuat">
+    <Key>
+      <PropertyRef Name="ma_px" />
+    </Key>
+    <Property Name="ma_px" Type="int" Nullable="false" />
+    <Property Name="ma_sach" Type="int" />
+    <Property Name="so_luong" Type="int" />
+    <Property Name="don_gia" Type="int" />
+  </EntityType>
+  <EntityType Name="tblKhachHang">
+    <Key>
+      <PropertyRef Name="ma_kh" />
+    </Key>
+    <Property Name="ma_kh" Type="int" Nullable="false" />
+    <Property Name="ten_kh" Type="nvarchar" MaxLength="50" />
+    <Property Name="dia_chi" Type="nvarchar" MaxLength="100" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="15" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="quyen" Type="int" />
+  </EntityType>
+  <EntityType Name="tblNCC">
+    <Key>
+      <PropertyRef Name="ma_ncc" />
+    </Key>
+    <Property Name="ma_ncc" Type="int" Nullable="false" />
+    <Property Name="ten_ncc" Type="nvarchar" MaxLength="50" />
+    <Property Name="dia_chi" Type="nvarchar" MaxLength="100" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="tblNhanVien">
+    <Key>
+      <PropertyRef Name="ma_nv" />
+    </Key>
+    <Property Name="ma_nv" Type="int" Nullable="false" />
+    <Property Name="ho_ten" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngay_sinh" Type="datetime" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="tblNXB">
+    <Key>
+      <PropertyRef Name="ma_nxb" />
+    </Key>
+    <Property Name="ma_nxb" Type="int" Nullable="false" />
+    <Property Name="ten_nxb" Type="nvarchar" MaxLength="50" />
+    <Property Name="dia_chi" Type="nvarchar" MaxLength="100" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+    <Property Name="tt_nguoi_dai_dien" Type="nvarchar" MaxLength="300" />
+  </EntityType>
+  <EntityType Name="tblPhieuNhap">
+    <Key>
+      <PropertyRef Name="ma_pn" />
+    </Key>
+    <Property Name="ma_pn" Type="int" Nullable="false" />
+    <Property Name="ma_nv" Type="int" />
+    <Property Name="ma_ncc" Type="int" />
+    <Property Name="ngay_nhap" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblPhieuXuat">
+    <Key>
+      <PropertyRef Name="ma_px" />
+    </Key>
+    <Property Name="ma_px" Type="int" Nullable="false" />
+    <Property Name="ma_nv" Type="int" />
+    <Property Name="ma_kh" Type="int" />
+    <Property Name="ngay_xuat" Type="datetime" />
+  </EntityType>
+  <EntityType Name="tblSach">
+    <Key>
+      <PropertyRef Name="ma_sach" />
+    </Key>
+    <Property Name="ma_sach" Type="int" Nullable="false" />
+    <Property Name="ten_sach" Type="nvarchar" MaxLength="50" />
+    <Property Name="ma_tac_gia" Type="int" />
+    <Property Name="ma_the_loai" Type="int" />
+    <Property Name="ma_nxb" Type="int" />
+    <Property Name="nam_xb" Type="datetime" />
+    <Property Name="gia" Type="int" />
+    <Property Name="tinhnang" Type="int" />
+    <Property Name="hinhanh" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblTacGia">
+    <Key>
+      <PropertyRef Name="ma_tac_gia" />
+    </Key>
+    <Property Name="ma_tac_gia" Type="int" Nullable="false" />
+    <Property Name="ten_tac_gia" Type="nvarchar" MaxLength="50" />
+    <Property Name="website" Type="nvarchar" MaxLength="100" />
+    <Property Name="ghi_chu" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblTheLoai">
+    <Key>
+      <PropertyRef Name="ma_the_loai" />
+    </Key>
+    <Property Name="ma_the_loai" Type="int" Nullable="false" />
+    <Property Name="ten_the_loai" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_tblCTPhieuNhap_tblPhieuNhap">
+    <End Role="tblPhieuNhap" Type="Self.tblPhieuNhap" Multiplicity="1" />
+    <End Role="tblCTPhieuNhap" Type="Self.tblCTPhieuNhap" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tblPhieuNhap">
+        <PropertyRef Name="ma_pn" />
+      </Principal>
+      <Dependent Role="tblCTPhieuNhap">
+        <PropertyRef Name="ma_pn" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblCTPhieuNhap_tblSach">
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="0..1" />
+    <End Role="tblCTPhieuNhap" Type="Self.tblCTPhieuNhap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSach">
+        <PropertyRef Name="ma_sach" />
+      </Principal>
+      <Dependent Role="tblCTPhieuNhap">
+        <PropertyRef Name="ma_sach" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblCTPhieuXuat_tblPhieuXuat">
+    <End Role="tblPhieuXuat" Type="Self.tblPhieuXuat" Multiplicity="1" />
+    <End Role="tblCTPhieuXuat" Type="Self.tblCTPhieuXuat" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tblPhieuXuat">
+        <PropertyRef Name="ma_px" />
+      </Principal>
+      <Dependent Role="tblCTPhieuXuat">
+        <PropertyRef Name="ma_px" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPhieuNhap_tblNCC">
+    <End Role="tblNCC" Type="Self.tblNCC" Multiplicity="0..1" />
+    <End Role="tblPhieuNhap" Type="Self.tblPhieuNhap" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNCC">
+        <PropertyRef Name="ma_ncc" />
+      </Principal>
+      <Dependent Role="tblPhieuNhap">
+        <PropertyRef Name="ma_ncc" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPhieuXuat_tblKhachHang">
+    <End Role="tblKhachHang" Type="Self.tblKhachHang" Multiplicity="0..1" />
+    <End Role="tblPhieuXuat" Type="Self.tblPhieuXuat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblKhachHang">
+        <PropertyRef Name="ma_kh" />
+      </Principal>
+      <Dependent Role="tblPhieuXuat">
+        <PropertyRef Name="ma_kh" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblPhieuXuat_tblNhanVien">
+    <End Role="tblNhanVien" Type="Self.tblNhanVien" Multiplicity="0..1" />
+    <End Role="tblPhieuXuat" Type="Self.tblPhieuXuat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNhanVien">
+        <PropertyRef Name="ma_nv" />
+      </Principal>
+      <Dependent Role="tblPhieuXuat">
+        <PropertyRef Name="ma_nv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblNXB">
+    <End Role="tblNXB" Type="Self.tblNXB" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblNXB">
+        <PropertyRef Name="ma_nxb" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="ma_nxb" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblTacGia">
+    <End Role="tblTacGia" Type="Self.tblTacGia" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTacGia">
+        <PropertyRef Name="ma_tac_gia" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="ma_tac_gia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblSach_tblTheLoai">
+    <End Role="tblTheLoai" Type="Self.tblTheLoai" Multiplicity="0..1" />
+    <End Role="tblSach" Type="Self.tblSach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTheLoai">
+        <PropertyRef Name="ma_the_loai" />
+      </Principal>
+      <Dependent Role="tblSach">
+        <PropertyRef Name="ma_the_loai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLNSModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblKhachHang" EntityType="Self.tblKhachHang" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblNCC" EntityType="Self.tblNCC" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblNhanVien" EntityType="Self.tblNhanVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblNXB" EntityType="Self.tblNXB" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPhieuNhap" EntityType="Self.tblPhieuNhap" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPhieuXuat" EntityType="Self.tblPhieuXuat" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblSach" EntityType="Self.tblSach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblTacGia" EntityType="Self.tblTacGia" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblTheLoai" EntityType="Self.tblTheLoai" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblCTPhieuNhap" EntityType="Self.tblCTPhieuNhap" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tblCTPhieuNhap].[ma_pn] AS [ma_pn], 
+    [tblCTPhieuNhap].[ma_sach] AS [ma_sach], 
+    [tblCTPhieuNhap].[so_luong] AS [so_luong], 
+    [tblCTPhieuNhap].[don_gia] AS [don_gia]
+    FROM [dbo].[tblCTPhieuNhap] AS [tblCTPhieuNhap]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="tblCTPhieuXuat" EntityType="Self.tblCTPhieuXuat" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [tblCTPhieuXuat].[ma_px] AS [ma_px], 
+    [tblCTPhieuXuat].[ma_sach] AS [ma_sach], 
+    [tblCTPhieuXuat].[so_luong] AS [so_luong], 
+    [tblCTPhieuXuat].[don_gia] AS [don_gia]
+    FROM [dbo].[tblCTPhieuXuat] AS [tblCTPhieuXuat]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tblCTPhieuNhap_tblPhieuNhap" Association="Self.FK_tblCTPhieuNhap_tblPhieuNhap">
+      <End Role="tblPhieuNhap" EntitySet="tblPhieuNhap" />
+      <End Role="tblCTPhieuNhap" EntitySet="tblCTPhieuNhap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblCTPhieuNhap_tblSach" Association="Self.FK_tblCTPhieuNhap_tblSach">
+      <End Role="tblSach" EntitySet="tblSach" />
+      <End Role="tblCTPhieuNhap" EntitySet="tblCTPhieuNhap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblCTPhieuXuat_tblPhieuXuat" Association="Self.FK_tblCTPhieuXuat_tblPhieuXuat">
+      <End Role="tblPhieuXuat" EntitySet="tblPhieuXuat" />
+      <End Role="tblCTPhieuXuat" EntitySet="tblCTPhieuXuat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPhieuNhap_tblNCC" Association="Self.FK_tblPhieuNhap_tblNCC">
+      <End Role="tblNCC" EntitySet="tblNCC" />
+      <End Role="tblPhieuNhap" EntitySet="tblPhieuNhap" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPhieuXuat_tblKhachHang" Association="Self.FK_tblPhieuXuat_tblKhachHang">
+      <End Role="tblKhachHang" EntitySet="tblKhachHang" />
+      <End Role="tblPhieuXuat" EntitySet="tblPhieuXuat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblPhieuXuat_tblNhanVien" Association="Self.FK_tblPhieuXuat_tblNhanVien">
+      <End Role="tblNhanVien" EntitySet="tblNhanVien" />
+      <End Role="tblPhieuXuat" EntitySet="tblPhieuXuat" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblNXB" Association="Self.FK_tblSach_tblNXB">
+      <End Role="tblNXB" EntitySet="tblNXB" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblTacGia" Association="Self.FK_tblSach_tblTacGia">
+      <End Role="tblTacGia" EntitySet="tblTacGia" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblSach_tblTheLoai" Association="Self.FK_tblSach_tblTheLoai">
+      <End Role="tblTheLoai" EntitySet="tblTheLoai" />
+      <End Role="tblSach" EntitySet="tblSach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

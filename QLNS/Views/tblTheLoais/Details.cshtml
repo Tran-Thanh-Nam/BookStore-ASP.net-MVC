@@ -1,0 +1,27 @@
+﻿@model QLNS.Models.tblTheLoai
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblTheLoai</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ten_the_loai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ten_the_loai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ma_the_loai }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

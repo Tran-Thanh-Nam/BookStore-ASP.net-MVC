@@ -1,0 +1,57 @@
+﻿@model QLNS.Models.tblPhieuXuat
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>tblPhieuXuat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ngay_xuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngay_xuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblCTPhieuXuat.ma_px)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblCTPhieuXuat.ma_px)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblKhachHang.ten_kh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblKhachHang.ten_kh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblNhanVien.ho_ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblNhanVien.ho_ten)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

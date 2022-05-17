@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QLNS.Models.tblPhieuXuat>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ngay_xuat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblCTPhieuXuat.ma_px)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblKhachHang.ten_kh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblNhanVien.ho_ten)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngay_xuat)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblCTPhieuXuat.ma_px)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblKhachHang.ten_kh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblNhanVien.ho_ten)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ma_px }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ma_px }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ma_px })
+        </td>
+    </tr>
+}
+
+</table>

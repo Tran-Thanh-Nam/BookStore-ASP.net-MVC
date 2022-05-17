@@ -1,0 +1,46 @@
+﻿@model IEnumerable<QLNS.Models.tblNhanVien>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ho_ten)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ngay_sinh)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sdt)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ho_ten)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ngay_sinh)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sdt)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ma_nv }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ma_nv }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ma_nv })
+        </td>
+    </tr>
+}
+
+</table>

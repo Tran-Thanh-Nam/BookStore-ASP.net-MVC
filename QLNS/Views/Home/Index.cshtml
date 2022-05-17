@@ -1,0 +1,39 @@
+﻿@using QLNS.Models
+@using PagedList.Mvc
+@model PagedList.PagedList<QLNS.Models.tblSach>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var spmoi = (PagedList.PagedList<QLNS.Models.tblSach>)ViewBag.spmoi;
+}
+
+    <div>
+        <div class="anhde">
+            <img src="~/Content/image/bookstore.jpg" />
+        </div>
+        <fieldset>
+
+            <legend class="tieude">
+                DANH SÁCH CÁC LOẠI SÁCH
+            </legend>
+            <div class="row">
+                @foreach (var n in spmoi)
+                {
+                    <div class="col-md-4">
+                        <div class="">
+                            @{ var img = n.hinhanh;
+                            }
+                            <img src="~/Content/image/@img" width="300px" height="300px" />
+                        </div>
+                        <div class="mau">@n.ten_sach</div>
+                        @Html.ActionLink("Đặt hàng", "chonhang", "giohang",
+                                new { id = n.ma_sach },
+                                new { @class = "btn btn-primary" })
+                    </div>
+                }
+            </div>
+            <div class="col-md-12">
+                @Html.PagedListPager(spmoi, page => Url.Action("Index", new { @page = page, @p2 = 1 }))
+            </div>
+        </fieldset>
+    </div>

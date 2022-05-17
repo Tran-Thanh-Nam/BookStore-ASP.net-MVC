@@ -1,0 +1,51 @@
+﻿@model QLNS.Models.tblPhieuXuat
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblPhieuXuat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ngay_xuat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ngay_xuat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblCTPhieuXuat.ma_px)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblCTPhieuXuat.ma_px)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblKhachHang.ten_kh)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblKhachHang.ten_kh)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tblNhanVien.ho_ten)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tblNhanVien.ho_ten)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ma_px }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

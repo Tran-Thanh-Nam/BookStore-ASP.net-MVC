@@ -1,0 +1,30 @@
+﻿@using QLNS.Models
+@model IEnumerable<tblSach>
+@{
+    ViewBag.Title = "tg3";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <fieldset>
+        <legend>
+            Tất cả sách
+        </legend>
+        <div class="row">
+            @foreach (var n in Model)
+            {
+                <div class="col-md-12">
+                    <div class="">
+                        @{ var img = n.hinhanh;
+                        }
+                        <img src="~/Content/image/@img" />
+                    </div>
+                    <div class="mau">@n.ten_sach</div>
+                    @Html.ActionLink("Đặt hàng", "chonhang", "giohang",
+                            new { id = n.ma_sach },
+                            new { @class = "btn btn-primary" })
+                </div>
+            }
+        </div>
+    </fieldset>
+</div>

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<QLNS.Models.tblSach>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ten_sach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nam_xb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblNXB.ten_nxb)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblTacGia.ten_tac_gia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tblTheLoai.ten_the_loai)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ten_sach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nam_xb)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblNXB.ten_nxb)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblTacGia.ten_tac_gia)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tblTheLoai.ten_the_loai)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ma_sach }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ma_sach }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ma_sach })
+        </td>
+    </tr>
+}
+
+</table>

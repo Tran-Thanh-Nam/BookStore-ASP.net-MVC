@@ -1,0 +1,48 @@
+﻿@model QLNS.Models.tblSach
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<fieldset>
+    <legend> Thong tin san pham @Model.ten_sach</legend>
+    <div class="row">
+        <div class="col-md-6">
+            @{var img = "/content" + Model.hinhanh.Remove(0, 1);}
+            <img class="img-thumbnail" src="@img" />
+        </div>
+        <div class="col-md-6">
+            <div>@Model.ten_sach</div>
+            <div> Năm sản xuất: @Model.nam_xb</div>
+            @*<div>@Model.maloai</div>*@
+            <div>
+                Tính năng: @{
+                    string tinhnang = (Model.tinhnang == 1 ?
+                        "SP sắp về" : (Model.tinhnang == 0 ?
+                        "Hết hàng" : "Còn hàng"));
+                }   @tinhnang
+            </div>
+            @*Hien thi nut dat hang neu nhu tinh trang la 1*@
+            <div>
+                @{
+                    if (Model.tinhnang == 1)
+                    {
+                        @*linkText, actionName, controllerName, routeValues, htmlAttributes*@
+                        @Html.ActionLink("Đặt hàng", "chonhang", "giohang",
+                            new { id = Model.ma_sach },
+                            new { @class = "btn btn-primary" })
+
+                    }
+                }
+            </div>
+            @*<div>
+                    Mã loại: @{
+                        int maloai = (Model.maloai )
+
+                    }
+                </div>*@
+        </div>
+    </div>
+
+</fieldset>
+<h2>Index</h2>
+

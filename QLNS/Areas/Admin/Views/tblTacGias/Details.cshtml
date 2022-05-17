@@ -1,0 +1,43 @@
+﻿@model QLNS.Models.tblTacGia
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_layoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>tblTacGia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ten_tac_gia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ten_tac_gia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.website)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.website)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ghi_chu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ghi_chu)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ma_tac_gia }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

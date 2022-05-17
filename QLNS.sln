@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QLNS", "QLNS\QLNS.csproj", "{72C7976C-8303-48B0-8AC0-B6709CC5EA4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C7976C-8303-48B0-8AC0-B6709CC5EA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C7976C-8303-48B0-8AC0-B6709CC5EA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C7976C-8303-48B0-8AC0-B6709CC5EA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C7976C-8303-48B0-8AC0-B6709CC5EA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5CDD86A-0407-4FB9-B46D-9D83685449FB}
+	EndGlobalSection
+EndGlobal

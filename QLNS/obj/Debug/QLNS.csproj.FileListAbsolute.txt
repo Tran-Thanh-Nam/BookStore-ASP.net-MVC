@@ -1,0 +1,168 @@
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\QLNS.dll.config
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\QLNS.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\QLNS.pdb
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csc.exe
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csc.exe.config
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csc.rsp
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csi.exe
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csi.exe.config
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\csi.rsp
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.AppContext.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Collections.Immutable.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Console.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.IO.Compression.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.IO.FileSystem.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.IO.Pipes.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Reflection.Metadata.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.AccessControl.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Claims.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.ValueTuple.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Xml.XPath.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\vbc.exe
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\vbc.exe.config
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\vbc.rsp
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\VBCSCompiler.exe
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\roslyn\VBCSCompiler.exe.config
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Antlr3.Runtime.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\EntityFramework.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\EntityFramework.SqlServer.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Microsoft.Web.Infrastructure.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Newtonsoft.Json.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\PagedList.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\PagedList.Mvc.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Helpers.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Mvc.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Optimization.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Razor.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.Deployment.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.Razor.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\WebGrease.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\EntityFramework.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\EntityFramework.SqlServer.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\PagedList.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\PagedList.Mvc.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Helpers.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Mvc.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Optimization.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.Razor.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.Deployment.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\System.Web.WebPages.Razor.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Newtonsoft.Json.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Antlr3.Runtime.pdb
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\obj\Debug\QLNS.csprojAssemblyReference.cache
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\obj\Debug\QLNS.csproj.CopyComplete
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\obj\Debug\QLNS.dll
+D:\nam\hoc\year 2019\Cô Trang\QLNS\QLNS\obj\Debug\QLNS.pdb
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\QLNS.dll.config
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\QLNS.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\QLNS.pdb
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csc.exe
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csc.exe.config
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csc.rsp
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csi.exe
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csi.exe.config
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\csi.rsp
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.Managed.Core.targets
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.AppContext.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Collections.Immutable.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Console.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.IO.Compression.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.IO.FileSystem.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.IO.Pipes.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Reflection.Metadata.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.AccessControl.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Claims.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Security.Principal.Windows.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.ValueTuple.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Xml.XmlDocument.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Xml.XPath.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\vbc.exe
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\vbc.exe.config
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\vbc.rsp
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\VBCSCompiler.exe
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\roslyn\VBCSCompiler.exe.config
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Antlr3.Runtime.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\EntityFramework.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\EntityFramework.SqlServer.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Microsoft.Web.Infrastructure.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Newtonsoft.Json.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\PagedList.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\PagedList.Mvc.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Helpers.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Mvc.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Optimization.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Razor.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.Deployment.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.Razor.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\WebGrease.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\EntityFramework.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\EntityFramework.SqlServer.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\PagedList.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\PagedList.Mvc.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Helpers.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Mvc.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Optimization.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.Razor.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.Deployment.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\System.Web.WebPages.Razor.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Newtonsoft.Json.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Antlr3.Runtime.pdb
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\obj\Debug\QLNS.csproj.CoreCompileInputs.cache
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\obj\Debug\QLNS.csproj.CopyComplete
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\obj\Debug\QLNS.dll
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\obj\Debug\QLNS.pdb
+D:\nam\hoc\year 2019\Nam3\QLNS\QLNS\obj\Debug\QLNS.csproj.AssemblyReference.cache
