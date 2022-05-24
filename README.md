@@ -1,7 +1,7 @@
 # bookstore-mvc
 ## Dùng ASP.NET + SQL SERVER.
 **Mô tả:
-1.Đăng nhập, đăng kí, đăng xuất:
+#1.Đăng nhập, đăng kí, đăng xuất:
 
 -	Đăng ký:
 •	Đối với người dung bình thường: trên hệ thống sẽ cho đăng kí tài khoản là khách hang để vào mua sách.
