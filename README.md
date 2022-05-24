@@ -1,7 +1,7 @@
 # bookstore-mvc
 ## Dùng ASP.NET + SQL SERVER.
 
-## Mô tả: 
+## *Mô tả: 
 
 ### 1.Đăng nhập, đăng kí, đăng xuất:
 
