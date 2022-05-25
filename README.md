@@ -21,13 +21,17 @@
 •	Khách hàng và admin khi đăng nhập đề sẽ đăng xuất ra trang chủ như bình thường nhìn vào.
 
 ### 3.Giao diện:
-  #### Trang chủ:
+  #### -Trang chủ:
   ![image](https://user-images.githubusercontent.com/101527833/170220769-0371c111-81fd-4080-81a1-67242fbc5a85.png)
 
-  #### Trang đăng nhập:
-  
-  #### Trang đăng kí:
-  
-  #### Giỏ hàng:
-  
-  #### Trang dành cho đăng nhập admin:
+  #### -Trang đăng nhập:
+  ![image](https://user-images.githubusercontent.com/101527833/170221168-8ae5b4ab-0b8e-4611-a8ba-6059bd32f1d3.png)
+
+  #### -Trang đăng kí:
+  ![image](https://user-images.githubusercontent.com/101527833/170221281-41b6ad7c-da8e-40cc-b248-9f13187faccc.png)
+
+  #### -Giỏ hàng:
+  ![image](https://user-images.githubusercontent.com/101527833/170221856-f813b028-ee63-478e-890b-961d3839afb8.png)
+
+  #### -Trang dành cho đăng nhập admin:
+![image](https://user-images.githubusercontent.com/101527833/170222094-09cb19c7-4682-438d-adf0-71b418aafa39.png)
